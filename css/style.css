@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* background-color: #4499f4; */
+}
+img {
+    object-fit: cover;
+}
+.header-title {
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    gap: 120px;
+}
+.card {
+    border: 2px solid #f0f0f0;
+    width: 286px;
+    border-radius: 5px;
+}
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+.card-body {
+    padding: 10px;
+}
+.card-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.card-text {
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.btn {
+    background-color: #007bff;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+    border: 1px solid #007bff;
+    &:hover {
+        opacity: 0.6;
+    }
+    &:active {
+        outline: 3px solid #4499f4;
+    }
+}
+
+.vercal {
+    margin-bottom: 50px;
+}
+.git .wrapper {
+    padding-top: 25px;
+}
